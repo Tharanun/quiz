@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e4e3e3dc;
+    padding: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+#result, #message, #price {
+    margin-top: 15px;
+    padding: 10px;
+    background: #e7f4ff;
+    border-left: 4px solid #007BFF;
+    border-radius: 5px;
+}
+
+a button {
+    width: auto;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+a button:hover {
+    background-color: #218838;
+}
+
+
+/* SQL */
+
+.box-sql{
+    border: 1px solid black;
+}
